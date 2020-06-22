@@ -78,4 +78,11 @@ export const Content = styled.div`
     color: var(--white);
 `;
 
-// export const Mention = styled.span``;
+export const Mention = styled.span`
+    color: var(--link);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`;
