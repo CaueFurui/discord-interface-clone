@@ -64,10 +64,12 @@ export const User = styled.div`
 
     > span {
         margin-left: 9px;
+
         background-color: var(--discord);
         color: var(--white);
         border-radius: 9px;
         padding: 4px 5px;
+        
         text-transform: uppercase;
         font-weight: bold;
         font-size: 11px;
